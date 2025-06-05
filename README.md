@@ -32,6 +32,7 @@ query: 搜索词(必填)
 API Key
 
 ## MCP配置例子
+```json
 {
   "mcpServers": {
     "datayes-ai-search": {
@@ -48,5 +49,6 @@ API Key
     }
   }
 }
+```
 
 xxx 需要替换为自己获取到的token
