@@ -52,4 +52,4 @@ API Key
 }
 ```
 
-xxx 需要替换为token,token向通联数据https://r.datayes.com/申请，联系客服:400 082 0386
+xxx 需要替换为token,token向通联数据https://r.datayes.com/ 申请，或联系客服:400 082 0386
