@@ -31,3 +31,22 @@ query: 搜索词(必填)
 鉴权方式
 API Key
 
+## MCP配置例子
+{
+  "mcpServers": {
+    "datayes-ai-search": {
+      "name": "AiSearch",
+      "type": "streamableHttp",
+      "description": "ai search assistant",
+      "isActive": true,
+      "timeout": "120",
+      "baseUrl": "https://mcp.datayes.com/ai/mcp/",
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bear xxx"
+      }
+    }
+  }
+}
+
+xxx 需要替换为自己获取到的token
