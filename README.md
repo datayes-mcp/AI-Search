@@ -1,4 +1,4 @@
-# ai-mcp
+# AI-Search
 
 产品名称：萝卜投研AI搜索
 
