@@ -45,7 +45,7 @@ API Key
       "baseUrl": "https://mcp.datayes.com/ai/mcp/",
       "headers": {
         "Content-Type": "application/json",
-        "Authorization": "Bear xxx"
+        "Authorization": "Bearer xxx"
       }
     }
   }
