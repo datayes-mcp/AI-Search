@@ -33,6 +33,7 @@ query: 搜索词(必填)
 API Key
 
 ## MCP配置例子
+cherry stdio 例子
 ```json
 {
   "mcpServers": {
@@ -52,4 +53,34 @@ API Key
 }
 ```
 
+dify 配置例子
+```json
+{
+    "datayes-ai-search-mcp-server": {
+        "transport": "streamable_http",
+        "url": "https://mcp.datayes.com/ai/mcp/",
+        "headers": {
+            "Content-Type": "application/json",
+            "Authorization": "Bearer xxx"
+        },
+        "timeout": 120
+    }
+}
+```
+
+vscode 配置例子， 配置步骤参考  
+https://code.visualstudio.com/docs/copilot/chat/mcp-servers
+
+```json
+        "servers": {
+            "datayesaiSearch": {
+            "type": "http",
+            "url": "https://mcp.datayes.com/ai/mcp/",
+            "headers": {
+                "Content-Type": "application/json",
+                "Authorization": "Bearer xxx"
+            }
+           }            
+        }
+```
 xxx 需要替换为token,token向通联数据https://r.datayes.com/ 申请，或联系客服:400 082 0386
